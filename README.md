@@ -9,6 +9,23 @@
 - 单文件，`querylog.py` 拷走就能用
 - 存档只落在本地 `~/.querylog/`，不联网
 
+<!-- ipos:install -->
+## 安装
+
+零依赖，Python 3.10+ 即可：
+
+```bash
+pip install langrjdjil-querylog
+```
+
+装完直接用命令名调用：
+
+```bash
+querylog --help
+```
+
+也可以不用安装，直接把 `querylog.py` 拷走用——它只依赖标准库。
+
 ## 为什么需要它
 
 做过一点调研之后会发现一个规律：三个月后有人问「这个说法哪来的」，
